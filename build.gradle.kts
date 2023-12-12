@@ -18,6 +18,8 @@ repositories {
 }
 
 dependencies {
+	implementation("com.netflix.graphql.dgs:graphql-dgs-spring-boot-starter")
+	implementation(platform("com.netflix.graphql.dgs:graphql-dgs-platform-dependencies:7.6.0"))
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
